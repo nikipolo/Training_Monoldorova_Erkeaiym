@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none" thread-count="4">
+    <test name="Regression">
+        <classes>
+            <class name="ui.LoginPageTest"/>
+            <class name="ui.MainPageTest"/>
+            <class name="ui.TaskTests.TaskPageTest"/>
+            <class name="ui.TaskTests.DailyReportsTest"/>
+        </classes>
+    </test>
+</suite>
